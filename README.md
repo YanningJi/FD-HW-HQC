@@ -5,7 +5,7 @@ This is the repo for the paper **Beyond Microcontrollers: End-to-End Full Decryp
 ## Folder structure
 ```
 main folder/
-├─ hqc-128/                                 # Third-round submisson of hqc-128, for generating linhqc-128.so
+├─ hqc-128/                                 # Third-round submisson of hqc-128, for generating libhqc-128.so
 ├─ src/
 │      cal_stats_using_oracle_output.py     # Script for testing predicted results
 │      config.json
@@ -18,6 +18,6 @@ main folder/
 │  hqc_capture.py                           # Script for capturing power traces from FPGA
 │  my_models.py
 │  plot_t-test.py                           # Script for ploting t-test figure
-│  testing_hqc_cct_error.py                 # Script for testing MLP models and recoding prediction results
+│  testing_hqc_cct_error.py                 # Script for testing MLP models and recording prediction results
 │  training_hqc.py                          # Script for training MLP models 
 ```
